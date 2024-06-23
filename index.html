@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- full nav section -->
+    <div id="nav">
+
+      <!-- logo and company name -->
+      <div id="navLogo">
+        <img src="images/logo.jpg" alt="company logo" id="logo">
+        <span id="logoName">Bremmy <br> Pharmacy (NIG) LTD. </span>
+      </div>
+
+      <!-- navigation links -->
+      <div id="navLinks">
+        <ul id="navLinks-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+
+          <div id="services-dropdown">
+            <li><span id="drop-down-toggle">Services &#x25BC; </span></li>
+            <div id="drop-down">
+             <a href="#range-products">&nbsp;&nbsp;Range of products</a> <hr>
+             <a href="#innovative-distribution-logistics">&nbsp;&nbsp;Distribution Logistics</a> <hr>
+             <a href="#cost-effective-solutions">&nbsp;&nbsp;Cost-Effective Solutions</a><hr>
+             <a href="#pharmaceutical-wholesale-retail">&nbsp;&nbsp;Pharmaceutical wholesale &nbsp;&nbsp;& retail</a> <hr>
+             <a href="#medical-procurement">&nbsp;&nbsp;Medical Procurement</a>
+            </div>
+          </div>
+
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- registration number -->
+      <div>
+        <span id="regNum">RC NO: 1679704</span>
+      </div>
+
+      <!-- hamburger  -->
+      <img src="images/menu_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="" id="hamburger">
+
+    </div> <hr style="width: 97%;">
+
+    <!-- marquee -->
+    <div class="marquee blur-class">
+      <p>YOUR HEALTH IS OUR PRIORITY...</p>
+    </div> <hr style="width: 97%;"> <br>
+
+    <!--Home section slider-->
+    <div class="slider blur-class1">
+        <div class="slide"><img src="images/store location.jpg" alt="Image 1"></div>
+        <div class="slide"><img src="images/drugs001.jpg" alt="Image 2"></div>
+        <!-- you can add more images here  -->
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div> <br>
+
+    <!-- about us section -->
+    <div id="about-us" class="content-section blur-class2">
+      <a href="#" class="header-link-tonav"><h1 class="aboutusHeader textAlign" id="aboutus-fontsize">ABOUT BREMMY PHARMACY</h1></a>
+       <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header" data-tab="our-story">
+                    <span class="button-content">Our Story</span> <span class="arrow" >&#x25BC;</span>
+                </button>
+                <div id="our-story" class="accordion-content">
+                    <p>
+                      Bremmy Pharmacy (Nig) Ltd, a division of Bremmy Multi Links, is a leading pharmaceutical company dedicated to providing high-quality drugs, medicines, and medical products to healthcare providers and pharmacies across Nigeria. With a commitment to excellence and a focus on customer satisfaction, we strive to be the preferred choice for all pharmaceutical needs. Bremmy pharmacy was incorporated on the 29th of June 2020 and it was founded by Mr. Brendan Emeka Ani, and has been under his leadership. 
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header" data-tab="our-mission">
+                    <span class="button-content">Our Mission</span> <span class="arrow">&#x25BC;</span>
+                </button>
+                <div id="our-mission" class="accordion-content">
+                    <p>
+                      At Bremmy Pharmacy, our mission is to provide top-quality drugs at standard rates to both wholesale and retail customers. We are committed to ensuring access to essential medications while maintaining the highest standards of quality and safety.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header" data-tab="our-vision">
+                    <span class="button-content">Our Vision</span> <span class="arrow">&#x25BC;</span>
+                </button>
+                <div id="our-vision" class="accordion-content">
+                    <p>
+                      Our vision is to be a key player in the healthcare landscape, ensuring the widespread availability of quality drugs and empowering communities with access to affordable medications. We aim to foster better health outcomes for all by providing reliable and efficient pharmaceutical services.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header" data-tab="compliance-ethics">
+                    <span class="button-content">Compliance and Ethics</span> <span class="arrow">&#x25BC;</span>
+                </button>
+                <div id="compliance-ethics" class="accordion-content">
+                    <p>
+                      We are committed to compliance with all industry laws and regulations. Our strict code of ethics and robust systems ensure the purchase and distribution of authentic medical products, prioritizing the safety and well-being of our clients and their patients.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> <br><br> <br><br>
+
+    <!-- services section -->
+    <div id="services" class="content-section"> 
+      <a href="#" class="header-link-tonav"><h1 class="textAlign">SERVICES OFFERED</h1></a><hr style="width: 97%;"> <br>
+
+      <div id="range-products" class="content-section">
+        
+        <div class="first-service">
+          <h2>Comprehensive range of products </h2>
+          <span class="first-service-text">
+            Bremmy Pharmacy offers a wide range of genuine pharmaceutical products, animal drugs, hospital equipment, and general goods. Our comprehensive selection caters to the diverse needs of healthcare providers and pharmacies, ensuring they have access to the best quality medical products to serve their patients effectively.
+          </span>
+        </div>
+
+        <div class="first-service-image">
+          <a href="#"><img src="images/drugs001.jpg" alt="" id="first-service-image"></a>
+        </div>
+
+      </div> <br><br>
+      
+      <div id="innovative-distribution-logistics" class="content-section">
+        <div class="second-service-image">
+          <a href="#"><img src="images/secondserviceimage.png" alt="img-blehh" id="second-service-image"></a>
+        </div>
+
+        <div class="second-service">
+          <h2>Innovative Distribution Logistics</h2>
+          <span class="bolder">
+            To ensure the safety and quality of our products, we have developed sophisticated distribution logistics. Our innovative approach allows us to maintain the integrity of the products throughout the distribution line and prevent the influx of counterfeit drugs.
+          </span>
+        </div>
+
+      </div> <br><br>
+      
+      <div id="cost-effective-solutions" class="content-section">
+       <div class="third-service">
+         <h2>Cost-Effective Solutions</h2>
+          <span class="bolder">
+            By maintaining low costs and high inventory, we empower our clients and customers with more buying power. We understand the importance of providing high-quality products at the best possible price, ensuring that healthcare providers and pharmacies can offer affordable care to their patients.
+          </span>
+       </div>
+
+       <div class="third-service-image">
+       <a href="#"> <img src="images/checkmark.png" alt="" id="third-service-image"></a>
+       </div>
+
+      </div> <br><br> <br> <br> <br>
+
+      <div id="pharmaceutical-wholesale-retail" class="content-section">
+        <h2 class="textAlign">Pharmaceutical wholesale & retail</h2>  
+        <span class="bolder">
+          As a <b>pharmaceutical wholesaler</b>, we handle all the wholesale heavy lifting, allowing our clients to focus on their core business. We purchase drugs and medicines in large quantities directly from manufacturers and resell them in reduced quantities to retailers, such as hospital and community pharmacies. <br> <br>
+
+          As a <b>pharmaceutical retailer</b>, our commitment to quality, safety, and customer satisfaction has earned us a reputation as a trusted brand in the pharmaceutical services industry. We are proud to serve as intermediaries between pharmaceutical manufacturers and healthcare providers, ensuring that patients have access to the medications they need.
+        </span>
+      </div> <br><br> <br> 
+
+      <div id="medical-procurement" class="content-section">
+        <h2 class="textAlign">Medical Procurement</h2>
+        <span class="bolder">
+          Medical procurement involves all aspects, from defining business needs and identifying suppliers to overseeing the delivery of goods and adjusting payment terms. We diligently search for reasonably priced products that offer excellent value. Our specialized and efficient procurement processes ensure the acquisition of high-quality, cost-effective items. Our goal is to ensure the timely availability of the right medications in optimal quantities and impeccable quality, procured through ethical and legal means from reputable sources. Our strengths lie in dependable payments, effective financial management, and continuous monitoring of supplier performance. We enforce stringent quality control through annual audits and regular reports, alongside frequent quality assurance checks and performance evaluations to consistently meet client and partner expectations.
+        </span>
+      </div>
+    </div> <br><br> <br> 
+
+    <!-- contact us section -->
+    <div id="contact-us">
+      <a href="#" class="header-link-tonav"><h1 class="textAlign">Contact Us</h1></a><hr style="width: 93%;"> <br>
+      <!-- location -->
+       <div class="location ">
+         <img src="images/my_location_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="location" class="icon-image" id="padding-left"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="contactus-font" id="small-font-size">
+            To learn more about our products and services, you can locate us at: <a href="https://www.google.com/maps/place/Koko+871105,+Kebbi,+Nigeria/@11.4311898,4.4439028,13z/data=!3m1!4b1!4m10!1m2!2m1!1sNo.+2,+market+road,+koko,+Kebbi+State.!3m6!1s0x11ca516d576c3cbf:0x657b0b273a9775d2!8m2!3d11.4276604!4d4.5160396!15sCiZOby4gMiwgbWFya2V0IHJvYWQsIGtva28sIEtlYmJpIFN0YXRlLpIBCGxvY2FsaXR54AEA!16s%2Fg%2F1tdlq5xy?entry=ttu" class="location-link" target="_blank"> No. 2, market road, koko, Kebbi State.</a>
+          </p>
+       </div> <br><br>
+
+       <!-- email  -->
+       <div class="email-phone">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/mail_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="email" class="icon-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="email contactus-font" id="small-font-size">
+            Email us at: <a href="#contact-us" class="location-link">
+              bremmypharmacy<span class="break-on-small-screen">01</span>@gmail.com
+            </a>
+          </p>
+       </div> <br><br>
+
+       <!-- phone numbers -->
+       <div class="email-phone">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/call_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="phone" class="icon-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <p class="email contactus-font" id="small-font-size">
+            Phone us at: <a href="#contact-us" class="location-link">07030486279, 08087343533, 09013579869</a>
+          </p>
+       </div> <br><br>
+
+       <!-- partnership -->
+       <div class="email-phone">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/partner_exchange_24dp_FILL0_wght400_GRAD0_opsz24.png" alt="phone" class="icon-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i >We look forward to partnering with you in providing exceptional healthcare and pharmaceutical services...</i>
+       </div> <br><br>
+       
+       <!-- social media  -->
+       <h2 id="you-can-findus">You Can Also Find us on:</h2> <br>
+       <div class="social-media-links">
+        <a href="https://www.instagram.com/bremmy_pharmacy_?igsh=MWdudnJwY2szOXBxNQ==" target="_blank"><img src="images/instagram.png" alt="instagram" class="social-media-image"></a> 
+       
+       <a href="linkedin.com/company/bremmy-pharmacy-nig-ltd" target="_blank"><img src="images/linkedin.png" alt="linkedin" class="social-media-image"></a>
+       </div> 
+       <br><br><br>
+    </div> <hr style="width: 93%;">
+
+    <!-- copyright -->
+    <div><p class="textAlign" id="copyright-font">©2024. Bremmy Pharmacy (NIG) Ltd. All Rights Reserved</p></div>
+
+    <button id="back-to-top" title="Go to top">&#x25B2;</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

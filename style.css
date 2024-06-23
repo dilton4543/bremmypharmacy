@@ -57,6 +57,7 @@ body {
     font-size: 16px;
     display: none;
     top: 40px;
+    z-index: 1;
 }
 
 #drop-down-toggle:hover {
@@ -467,6 +468,22 @@ button.next:hover {
     }
     #navLinks {
         display: none;
+        position: absolute;
+        left: 10rem;
+        top: 5rem;
+        border: 1px solid black;
+        border-radius: 2px;
+        padding: 20px 50px;
+        z-index: 1;
+        background-color: #f5f5f5;
+    }
+    #navLinks-ul {
+        font-size: 16px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+         margin-right: 30px;
     }
     #nav {
         gap: 2.5rem;
@@ -589,7 +606,7 @@ button.next:hover {
   #navLinks {
     display: none;
     position: absolute;
-    left: 5rem;
+    left: 7rem;
     top: 5rem;
     border: 1px solid black;
     border-radius: 2px;
@@ -598,12 +615,12 @@ button.next:hover {
     background-color: #f5f5f5;
   }
   #navLinks-ul {
-      font-size: 16px;
-      font-weight: bolder;
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      margin-right: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 30px;
   }
   #regNum{
     margin-left: 10px;

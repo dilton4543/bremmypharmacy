@@ -6,7 +6,7 @@ let hamburger = document.getElementById("hamburger");
 let navLinks = document.getElementById("navLinks");
 let marqueeBlur = document.querySelector(".blur-class");
 let sliderBlur = document.querySelector(".blur-class1");
-let aboutusBlur = document.querySelector(".blur-class2");
+// let aboutusBlur = document.querySelector(".blur-class2");
 let currentIndex = 0;
 
 
@@ -15,12 +15,15 @@ hamburger.addEventListener('click', function () {
         navLinks.style.display = "none";
         marqueeBlur.classList.remove('blur');
         sliderBlur.classList.remove('blur');
-        aboutusBlur.classList.remove('blur');
+        // aboutusBlur.classList.remove('blur');
+        hamburger.src = "images/menu_24dp_FILL0_wght400_GRAD0_opsz24.png"
+        
     } else {
         navLinks.style.display = "block";
         marqueeBlur.classList.add('blur');
         sliderBlur.classList.add('blur');
-        aboutusBlur.classList.add('blur');
+        // aboutusBlur.classList.add('blur');
+        hamburger.src = "images/close_24dp_FILL0_wght400_GRAD0_opsz24.png"
     }
 });
 

@@ -735,3 +735,37 @@ button.next:hover {
     font-size: 12px;
    }
 }
+@media (max-width: 250px) {
+    #logoName{
+        font-size: 10px;
+    }
+    #regNum{
+        font-size: 10px;
+    }
+    #navLogo{
+        margin-right: 0;
+    }
+    .break-on-small-screen::before {
+        content: '';
+        display: block;
+    }
+    #navLinks {
+        left: 2rem;
+        border: 1px solid black;
+        border-radius: 2px;
+        padding: 5px 20px;
+    }
+    #padding-left {
+        padding-left: 0;
+    }
+    .spacing {
+        display: none;
+        /* This will remove the spacing */
+    }
+    #we-look-forward{
+        font-size: 12px;
+    }
+    #you-can-findus{
+        font-size: 19px;
+    }
+}
